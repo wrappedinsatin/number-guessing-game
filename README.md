@@ -6,6 +6,6 @@ This is a number guessing game I have created as a project I have taken up from 
 
 https://roadmap.sh/projects/number-guessing-game
 
-Here is the link to roadmap.sh on GitHub: 
+Here is the link to roadmap.sh on GitHub: https://github.com/kamranahmedse/developer-roadmap
 
 I've decided to add hints to reduce the element of luck and make the game more strategy-based instead. The game is also replayable and foolproof, meaning any user input is tested before it is used by the main program. This ensures the program does not crash when an "invalid" input is given.
