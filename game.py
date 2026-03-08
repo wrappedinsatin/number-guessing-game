@@ -35,5 +35,3 @@ def game(lim, lower_bound, upper_bound):
             print(f"Too many guesses!")
             print(f"The number was {selected}")
             break
-            
-game(15, 1, 100)
