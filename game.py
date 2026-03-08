@@ -5,14 +5,14 @@ from test_number import test_int
 def game(lim, lower_bound, upper_bound):
     
     selected = randint(lower_bound, upper_bound)
-    count = 1
+    count = 0
     
     while True:
         
         num = test_int(lower_bound, upper_bound)
+        count += 1
         
         if num != selected:
-            count += 1
             if num < selected:
                 print(f"{num} is smaller than the guess!")
                 

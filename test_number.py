@@ -19,6 +19,3 @@ def test_int(lower_bound, upper_bound):
         except ValueError:
             print(f"{num} is not an integer!")
             print("Type in an integer.\n")
-        
-
-test_int(1, 100)
